@@ -97,7 +97,7 @@ class Main extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 int i = result();
                 JOptionPane.showMessageDialog(null,
-                        "Se eu conseguir mover montanhas, se eu conseguir surfar um tsunami,\n se eu conseguir domar o sol, se eu conseguir fazer o mar virar sertão, e o sertão virar mar, se\n eu conseguir dizer o que eu nunca vou conseguir dizer, aí terá chegado o dia em que eu vou\n conseguir te eliminar com alegria. Com "+pessoas.get(i).getVotos()+" votos, é você quem sai "+pessoas.get(i).name
+                        "Se eu conseguir mover montanhas, se eu conseguir surfar um tsunami,\n se eu conseguir domar o sol, se eu conseguir fazer o mar virar sertão, e o sertão virar mar, se\n eu conseguir dizer o que eu nunca vou conseguir dizer, aí terá chegado o dia em que eu vou\n conseguir te eliminar com alegria. Com "+pessoas.get(i).getVotos()+" votos, é você quem sai "+pessoas.get(i)
                 );
             }
         });
